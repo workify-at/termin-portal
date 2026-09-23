@@ -1,0 +1,20 @@
+{
+  "name": "termin-portal-animation",
+  "private": true,
+  "scripts": {
+    "studio": "remotion studio",
+    "render": "remotion render BookingFlow ../assets/booking.mp4 --codec=h264 --crf=24 && remotion still BookingFlow ../assets/booking-poster.jpg --frame=582 --image-format=jpeg --jpeg-quality=85"
+  },
+  "dependencies": {
+    "@remotion/cli": "^4.0.527",
+    "@remotion/google-fonts": "^4.0.527",
+    "@remotion/transitions": "^4.0.527",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "remotion": "^4.0.527"
+  },
+  "devDependencies": {
+    "@types/react": "^19.3.0",
+    "typescript": "^7.0.2"
+  }
+}
