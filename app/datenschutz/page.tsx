@@ -17,8 +17,9 @@ export default function DatenschutzPage() {
         <h1>Datenschutzerklärung</h1>
 
         <p>
-          Termin Portal ist eine Marke der Doc Media GmbH. Verantwortlich für die Verarbeitung
-          personenbezogener Daten im Zusammenhang mit dieser Website ist die Doc Media GmbH.
+          Termin Portal ist eine Marke der Doc Media GmbH. Diese Datenschutzerklärung erläutert, wie
+          personenbezogene Daten im Zusammenhang mit dieser Website sowie im Rahmen der Online-Terminbuchung
+          verarbeitet werden.
         </p>
 
         <h2>Verantwortlicher</h2>
@@ -36,24 +37,76 @@ export default function DatenschutzPage() {
 
         <h2>Rollenverteilung bei der Terminbuchung</h2>
         <p>
-          Bei der Online-Terminbuchung über Termin Portal ist die jeweilige Praxis Verantwortliche im Sinne der
-          DSGVO für die Verarbeitung Ihrer Buchungsdaten. Die Doc Media GmbH verarbeitet diese Daten als
-          Auftragsverarbeiterin im Auftrag der Praxis (Art. 28 DSGVO). Anfragen zu Ihren Buchungsdaten (z.&nbsp;B.
+          Bei der Online-Terminbuchung über Termin Portal ist die jeweilige Praxis Verantwortliche gemäß Art. 4
+          Z 7 DSGVO für die Verarbeitung Ihrer Buchungsdaten. Die Doc Media GmbH verarbeitet diese Daten als
+          Auftragsverarbeiter im Auftrag der Praxis (Art. 28 DSGVO), ausschließlich zum Zweck der technischen
+          Bereitstellung und des Betriebs von Termin Portal. Eine darüber hinausgehende eigenständige Nutzung
+          Ihrer Buchungsdaten durch Termin Portal findet nicht statt. Anfragen zu Ihren Buchungsdaten (z.&nbsp;B.
           Auskunft oder Löschung) richten Sie bitte direkt an die Praxis, bei der Sie den Termin gebucht haben.
         </p>
 
+        <h2>Rechtsgrundlagen der Datenverarbeitung</h2>
+        <p>Die Verarbeitung Ihrer Buchungsdaten stützt sich auf folgende Rechtsgrundlagen:</p>
+        <ul>
+          <li>
+            <strong>Vertragserfüllung und vorvertragliche Maßnahmen</strong> (Art. 6 Abs. 1 lit. b DSGVO): zur
+            Entgegennahme, Bearbeitung und Durchführung Ihrer Terminanfrage.
+          </li>
+          <li>
+            <strong>Erfüllung rechtlicher Verpflichtungen</strong> (Art. 6 Abs. 1 lit. c DSGVO): soweit
+            gesetzliche Aufbewahrungs- und Dokumentationspflichten der Praxis bestehen.
+          </li>
+          <li>
+            <strong>Berechtigtes Interesse</strong> (Art. 6 Abs. 1 lit. f DSGVO): an der ordnungsgemäßen
+            Terminkoordination und Patientenverwaltung.
+          </li>
+        </ul>
+
         <h2>Verarbeitete Daten bei der Buchung</h2>
         <ul>
-          <li>Name und Kontaktdaten (E-Mail-Adresse, Telefonnummer)</li>
-          <li>Gewählter Termin, Terminart und Praxis</li>
-          <li>Optionale Angaben, die Sie im Buchungsformular machen</li>
+          <li>Vor- und Nachname</li>
+          <li>Geburtsdatum</li>
+          <li>E-Mail-Adresse</li>
+          <li>Mobiltelefonnummer</li>
+          <li>Ausgewählte Praxis</li>
+          <li>Gegebenenfalls ausgewählte Fachkraft bzw. Leistungserbringer</li>
+          <li>Art der gewünschten Leistung</li>
+          <li>Gewählter Terminzeitpunkt</li>
+          <li>Datum und Uhrzeit der Buchungsanfrage</li>
+          <li>Gegebenenfalls eine optionale Nachricht (Freitextfeld für ergänzende Angaben)</li>
+          <li>Gegebenenfalls Art der Krankenversicherung, sofern von der Praxis für die Abrechnung vorgesehen</li>
         </ul>
+        <p>
+          Die Eingabe einer Nachricht im Freitextfeld ist freiwillig und für die Buchung nicht erforderlich. Wir
+          bitten Sie, dort keine sensiblen Gesundheitsinformationen anzugeben – solche Angaben werden von
+          Termin Portal weder angefordert noch benötigt. Sollten Sie dennoch von sich aus gesundheitsbezogene
+          Angaben machen, geschieht dies eigenverantwortlich. Sämtliche personenbezogenen Daten werden in
+          verschlüsselter Form gespeichert.
+        </p>
 
         <h2>Zweck der Verarbeitung</h2>
         <p>
-          Die Daten werden ausschließlich zur Durchführung der Terminvereinbarung, zur Übermittlung an die
-          Praxis sowie zum Versand der Terminbestätigung per E-Mail verwendet. Rechtsgrundlage ist Art. 6 Abs. 1
-          lit. b DSGVO (Vertragserfüllung bzw. vorvertragliche Maßnahmen).
+          Ihre Daten werden für folgende Zwecke verarbeitet: die Entgegennahme, Bearbeitung und Bestätigung
+          Ihrer Terminanfrage sowie die Kommunikation im Zusammenhang mit dem Termin; die Weiterverarbeitung im
+          Rahmen der Patientenverwaltung und Honorarabrechnung durch die Praxis; sowie die Aufbewahrung Ihrer
+          Daten unter Beachtung der einschlägigen gesetzlichen Bestimmungen.
+        </p>
+
+        <h2>Versand der Terminbestätigung</h2>
+        <p>
+          Für den Versand der Terminbestätigung per E-Mail setzen wir den E-Mail-Dienstleister Mailgun
+          (Mailgun Technologies, Inc.; Teil der Sinch AB) ein. Dabei werden die zur Bestätigung notwendigen
+          Daten (z.&nbsp;B. Name, E-Mail-Adresse, Termindetails) an Mailgun übermittelt.
+        </p>
+        <p>
+          Die Verarbeitung erfolgt über die von Mailgun bereitgestellten Server innerhalb der Europäischen
+          Union. Eine Übermittlung personenbezogener Daten in ein Drittland findet im Rahmen des
+          E-Mail-Versands nicht statt. Weitere Informationen finden Sie in der Datenschutzerklärung von Mailgun
+          unter:
+          <br />
+          <a href="https://www.mailgun.com/legal/privacy-policy/" target="_blank" rel="noopener noreferrer">
+            mailgun.com/legal/privacy-policy
+          </a>
         </p>
 
         <h2>Besuch dieser Website</h2>
@@ -64,9 +117,7 @@ export default function DatenschutzPage() {
         <p>
           Der Hosting-Dienstleister ist:
           <br />
-          Vercel Inc., 440 N Barranca Avenue #4133, Covina, CA 91723, Vereinigte Staaten von Amerika
-          <br />
-          EU-Vertreter: c/o EDPO, Avenue Huart Hamoir 71, 1030 Brüssel, Belgien
+          Scaleway SAS, 8 rue de la Ville l&apos;Évêque, 75008 Paris, Frankreich
         </p>
         <p>
           Beim Aufruf werden durch den Hosting-Dienstleister automatisch technisch notwendige Server-Logfiles
@@ -76,16 +127,21 @@ export default function DatenschutzPage() {
           Abs. 1 lit. f DSGVO).
         </p>
         <p>
-          Vercel kann personenbezogene Daten auch in den USA verarbeiten. Die Übermittlung erfolgt auf
-          Grundlage geeigneter Garantien, insbesondere Standardvertragsklauseln der EU-Kommission. Weitere
-          Informationen finden Sie in der Datenschutzerklärung von Vercel unter:
+          Die Server befinden sich innerhalb der Europäischen Union. Eine Übermittlung personenbezogener Daten
+          in ein Drittland findet im Rahmen des Hostings nicht statt. Weitere Informationen finden Sie in der
+          Datenschutzerklärung des Hosting-Dienstleisters unter:
           <br />
-          <a href="https://vercel.com/legal/privacy-policy" target="_blank" rel="noopener noreferrer">
-            vercel.com/legal/privacy-policy
+          <a href="https://www.scaleway.com/en/privacy-policy/" target="_blank" rel="noopener noreferrer">
+            scaleway.com/en/privacy-policy
           </a>
         </p>
 
         <h2>Sicherheit</h2>
+        <p>
+          Termin Portal setzt geeignete technische und organisatorische Maßnahmen ein, um Ihre
+          personenbezogenen Daten vor unbefugtem Zugriff, Verlust, Zerstörung oder Veränderung zu schützen.
+          Diese Maßnahmen werden regelmäßig überprüft und dem aktuellen Stand der Technik angepasst.
+        </p>
         <p>
           Diese Website nutzt aus Sicherheitsgründen und zum Schutz der Übertragung vertraulicher Inhalte, wie
           zum Beispiel Ihrer Buchungsdaten, eine SSL- bzw. TLS-Verschlüsselung. Eine verschlüsselte Verbindung
@@ -96,17 +152,30 @@ export default function DatenschutzPage() {
 
         <h2>Speicherdauer</h2>
         <p>
-          Buchungsbezogene Daten werden gelöscht, sobald der Verarbeitungszweck entfällt und keine gesetzlichen
-          Aufbewahrungspflichten entgegenstehen. Server-Logdaten werden durch den Hosting-Dienstleister
-          automatisiert nach kurzer Zeit gelöscht bzw. anonymisiert.
+          Die Praxis speichert Ihre Buchungsdaten so lange, wie dies zur Erfüllung der beschriebenen
+          Verarbeitungszwecke erforderlich ist oder gesetzliche Aufbewahrungs- und Dokumentationspflichten –
+          insbesondere aus dem Behandlungsverhältnis und den anwendbaren nationalen Berufs-, Gesundheits- und
+          Abgabengesetzen – dies vorsehen. Nach Ablauf der jeweiligen Frist werden die Daten gelöscht oder
+          anonymisiert weiterverarbeitet, sofern keine anderweitigen rechtlichen Verpflichtungen entgegenstehen.
+          Server-Logdaten werden durch den Hosting-Dienstleister automatisiert nach kurzer Zeit gelöscht bzw.
+          anonymisiert.
         </p>
 
         <h2>Ihre Rechte</h2>
+        <p>Als betroffene Person stehen Ihnen insbesondere folgende Rechte zu:</p>
+        <ul>
+          <li>Recht auf Auskunft (Art. 15 DSGVO)</li>
+          <li>Recht auf Berichtigung (Art. 16 DSGVO)</li>
+          <li>Recht auf Löschung (Art. 17 DSGVO)</li>
+          <li>Recht auf Einschränkung der Verarbeitung (Art. 18 DSGVO)</li>
+          <li>Recht auf Datenübertragbarkeit (Art. 20 DSGVO)</li>
+          <li>Recht auf Widerspruch (Art. 21 DSGVO)</li>
+          <li>Recht auf Kenntnis der Empfänger, an die Ihre Daten übermittelt werden</li>
+        </ul>
         <p>
-          Ihnen stehen grundsätzlich die Rechte auf Auskunft, Berichtigung, Löschung, Einschränkung,
-          Datenübertragbarkeit und Widerspruch zu. Anfragen zu Ihren Buchungsdaten richten Sie bitte direkt an
-          die jeweilige Praxis (siehe „Rollenverteilung“). Für alle sonstigen Anliegen erreichen Sie uns über
-          die oben genannten Kontaktdaten der Doc Media GmbH.
+          Anfragen zu Ihren Buchungsdaten richten Sie bitte direkt an die jeweilige Praxis (siehe
+          „Rollenverteilung“). Für alle sonstigen Anliegen erreichen Sie uns über die oben genannten
+          Kontaktdaten der Doc Media GmbH.
         </p>
         <p>
           Sie haben darüber hinaus das Recht, eine Beschwerde bei einer Datenschutzaufsichtsbehörde
