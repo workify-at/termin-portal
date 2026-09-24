@@ -30,8 +30,6 @@ export default function DatenschutzPage() {
           <br />
           5020 Salzburg, Österreich
           <br />
-          Tel.: <a href="tel:+436644032143">+43 664 40 32 143</a>
-          <br />
           E-Mail: <a href="mailto:office@doc-media.at">office@doc-media.at</a>
         </p>
 

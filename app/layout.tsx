@@ -5,15 +5,15 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.termin-portal.com"),
-  title: "Termin Portal – Online-Terminbuchung bei Ihrer Praxis",
+  title: "Termin Portal – Online-Terminbuchung und Terminversand",
   description:
-    "Sie haben eine Terminbestätigung von Termin Portal erhalten? Termin Portal ist das Online-Buchungssystem Ihrer Praxis. Bei Fragen zu Ihrem Termin wenden Sie sich bitte direkt an Ihre Praxis.",
+    "Termin Portal ist ausschließlich eine Plattform zum Versand und zur Online-Buchung von Terminen. Bei Fragen zu Ihrem Termin wenden Sie sich bitte an Ihren behandelnden Arzt bzw. Ihre Praxis.",
   icons: {
     icon: "/favicon.svg",
   },
   openGraph: {
-    title: "Termin Portal – Online-Terminbuchung",
-    description: "Arzttermine einfach online buchen. Fragen zu Ihrem Termin klären Sie bitte direkt mit Ihrer Praxis.",
+    title: "Termin Portal – Online-Terminbuchung und Terminversand",
+    description: "Plattform zum Versand und zur Online-Buchung von Terminen. Bei Fragen wenden Sie sich bitte an Ihren behandelnden Arzt.",
     type: "website",
     url: "/",
   },

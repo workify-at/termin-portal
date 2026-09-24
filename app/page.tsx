@@ -7,10 +7,11 @@ export default function HomePage() {
       <section className="hero">
         <div className="container">
           <div>
-            <h1>Arzttermine rund um die Uhr online buchen.</h1>
+            <h1>Fragen zu Ihrem Termin?</h1>
             <p className="lead">
-              Freie Termine in Echtzeit sehen, Wunschtermin wählen und sofort buchen. Bestätigung bequem per
-              E-Mail erhalten.
+              Termin Portal ist <strong>ausschließlich eine Plattform zum Versand und zur Online-Buchung
+              von Terminen</strong> im Auftrag Ihrer Praxis. Bitte melden Sie sich bei Fragen nicht bei Termin Portal,
+              sondern direkt bei Ihrem behandelnden Arzt.
             </p>
             <div className="hero-actions">
               <a className="btn btn-dark" href="#faq">
@@ -33,6 +34,29 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* Kernbotschaft */}
+      <section className="notice-section" aria-labelledby="notice-title">
+        <div className="container">
+          <div className="notice" role="note">
+            <div className="ico" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
+                <circle cx={12} cy={12} r={9} />
+                <path d="M12 11v5M12 7.5v.01" />
+              </svg>
+            </div>
+            <div>
+              <h2 id="notice-title">Bitte wenden Sie sich an Ihre Praxis – nicht an Termin Portal.</h2>
+              <p>
+                Termin Portal ist lediglich die Plattform für die Online-Buchung und den automatisierten Versand Ihrer
+                Terminbestätigung. Termin Portal kann Ihre
+                Termine weder einsehen noch ändern oder absagen und erteilt keine medizinische Auskunft. Für alle Anliegen
+                ist ausschließlich Ihr behandelnder Arzt bzw. Ihre Praxis zuständig.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Vorteile */}
       <section className="section" id="gut-zu-wissen" aria-labelledby="vorteile-title">
         <div className="container">
@@ -48,8 +72,8 @@ export default function HomePage() {
                   <path d="M12 7v5l3 2" />
                 </svg>
               </div>
-              <h3>Buchen, wann es Ihnen passt</h3>
-              <p>Freie Termine sind rund um die Uhr sichtbar.</p>
+              <h3>Nur eine Plattform</h3>
+              <p>Termin Portal dient der Online-Buchung und dem Versand von Terminen im Auftrag Ihrer Praxis.</p>
             </li>
             <li className="benefit">
               <div className="ico" aria-hidden="true">
@@ -58,8 +82,8 @@ export default function HomePage() {
                   <path d="m3 7 9 6 9-6" />
                 </svg>
               </div>
-              <h3>Sofort bestätigt</h3>
-              <p>Direkt nach der Buchung erhalten Sie alle Details zu Ihrem Termin per E-Mail.</p>
+              <h3>Bestätigung per E-Mail</h3>
+              <p>Nach der Buchung erhalten Sie automatisch alle Details zu Ihrem Termin.</p>
             </li>
             <li className="benefit">
               <div className="ico" aria-hidden="true">
@@ -68,8 +92,8 @@ export default function HomePage() {
                   <path d="M4 21c0-4 3.6-7 8-7s8 3 8 7" />
                 </svg>
               </div>
-              <h3>Kein Konto nötig</h3>
-              <p>Sie buchen ohne Registrierung und ohne Passwort – nur mit Ihren Kontaktdaten.</p>
+              <h3>Keine Auskunft durch Termin Portal</h3>
+              <p>Termin Portal sieht Ihre Termine nicht und erteilt keine medizinische Auskunft.</p>
             </li>
             <li className="benefit">
               <div className="ico" aria-hidden="true">
@@ -77,7 +101,7 @@ export default function HomePage() {
                   <path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z" />
                 </svg>
               </div>
-              <h3>Praxis bleibt Ansprechpartner</h3>
+              <h3>Ihr Arzt ist Ansprechpartner</h3>
               <p>Absagen, Änderungen und alle Fragen zum Termin klären Sie direkt mit Ihrer Praxis.</p>
             </li>
             <li className="benefit">
@@ -101,6 +125,21 @@ export default function HomePage() {
             <h2 id="faq-title">Häufige Fragen</h2>
           </div>
           <div className="faq">
+            <details open>
+              <summary>
+                An wen wende ich mich bei Fragen zu meinem Termin?
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" aria-hidden="true">
+                  <path d="M12 5v14M5 12h14" />
+                </svg>
+              </summary>
+              <div className="answer">
+                <p>
+                  Immer an Ihre behandelnde Ärztin bzw. Ihren behandelnden Arzt. Termin Portal ist nur die Plattform
+                  für Online-Buchung und Versand von Terminen und kann Ihnen bei Anliegen zu Ihrem Termin
+                  nicht weiterhelfen.
+                </p>
+              </div>
+            </details>
             <details>
               <summary>
                 Wie kann ich meinen Termin absagen oder verschieben?

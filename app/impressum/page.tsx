@@ -32,8 +32,6 @@ export default function ImpressumPage() {
         <h2>Kontakt</h2>
         <p>
           E-Mail: <a href="mailto:office@doc-media.at">office@doc-media.at</a>
-          <br />
-          Telefon: <a href="tel:+436644032143">+43 664 40 32 143</a>
         </p>
         <p>
           <strong>Hinweis:</strong> Für Fragen zu gebuchten Terminen, Terminänderungen oder Absagen wenden Sie

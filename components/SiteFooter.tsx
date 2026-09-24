@@ -12,7 +12,7 @@ export function SiteFooter() {
                 Termin <span>Portal</span>
               </b>
             </Link>
-            <p className="footer-about">Schnell online zum passenden Arzttermin.</p>
+            <p className="footer-about">Plattform zum Versand und zur Online-Buchung von Terminen. Bei Fragen wenden Sie sich bitte an Ihren behandelnden Arzt.</p>
           </div>
           <div className="footer-links">
             <div>
@@ -30,7 +30,7 @@ export function SiteFooter() {
         </div>
         <div className="footer-bottom">
           <span>© 2026 termin-portal.com</span>
-          <span>Termin Portal erteilt keine medizinische Beratung.</span>
+          <span>Kein Ansprechpartner für Patienten – bitte kontaktieren Sie Ihre Praxis.</span>
         </div>
       </div>
     </footer>

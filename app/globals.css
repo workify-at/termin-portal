@@ -714,6 +714,66 @@ p {
   text-decoration: none;
 }
 
+/* ---------- Kernbotschaft ---------- */
+
+.notice-section {
+  padding: 72px 0 24px;
+}
+
+.notice {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  padding: 28px 32px;
+  background: var(--blue-50);
+  border: 1px solid var(--blue-200);
+  border-left: 5px solid var(--blue-500);
+  border-radius: var(--radius);
+}
+
+.notice .ico {
+  flex: none;
+  width: 44px;
+  height: 44px;
+  display: grid;
+  place-items: center;
+  border-radius: 12px;
+  background: #fff;
+  color: var(--blue-600);
+  box-shadow: var(--shadow-sm);
+}
+
+.notice .ico svg {
+  width: 24px;
+  height: 24px;
+}
+
+.notice h2 {
+  font-size: clamp(1.25rem, 2.2vw, 1.625rem);
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  line-height: 1.25;
+  margin-bottom: 8px;
+  color: var(--blue-900);
+}
+
+.notice p {
+  color: var(--gray-700);
+  line-height: 1.6;
+}
+
+@media (max-width: 720px) {
+  .notice-section {
+    padding-top: 56px;
+  }
+
+  .notice {
+    flex-direction: column;
+    gap: 14px;
+    padding: 22px 20px;
+  }
+}
+
 /* ---------- Responsive ---------- */
 
 @media (max-width: 960px) {
